@@ -95,6 +95,23 @@ button:active {
   }
 }
 
+
+@media only screen and (max-width: 600px) {
+  .cell {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+  }
+  .container {
+    max-width: 500px;
+    /* margin: 200px; */
+    /* margin: auto 0px; */
+  }
+  body{
+    height: 100vh;
+    align-content: center;
+  }
+}
 @media only screen and (max-width: 400px) {
   .cell {
     width: 20px;
@@ -103,23 +120,13 @@ button:active {
   }
   .container {
     max-width: 400px;
+    margin: 10px 0px;
+    /* margin: 200px auto; */
 
   }
   body{
-    height: 100vh;
-  }
-}
-@media only screen and (max-width: 600px) and (min-width : 400px) {
-  .cell {
-    width: 30px;
-    height: 30px;
-    font-size: 16px;
-  }
-  .container {
-    max-width: 500px;
-
-  }
-  body{
+    /* display: flex; */
+    align-content: center;
     height: 100vh;
   }
 }
